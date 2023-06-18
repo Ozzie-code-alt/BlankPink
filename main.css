@@ -140,7 +140,6 @@ padding-left: 1rem;
     display: grid;
     align-items: center;
     justify-content: center;
-    padding-right: 2rem;
     padding-bottom: 10rem;
 }
 
@@ -322,12 +321,10 @@ color: black;
     margin-top: 18rem;
     transition: 0.3s ease;
 }
+
 .Shop-Store .product-container .jennie-container .jennie-description:hover{
     background-color: white;
 }
-
-
-
 
 .Shop-Store .product-container .jennie-container .jennie-description .title-container-jennie{
     text-align: center;
@@ -364,4 +361,124 @@ color: black;
 .Shop-Store .product-container .jennie-container .jennie-description:hover .shop-btn-jennie{
     opacity: 1;
     color: #f4a7ba ;
+}
+
+/*Rose Section 2 Styles*/
+
+.Shop-Store .product-container  .Rose-container .Rose-description{
+    position: absolute;
+    display: grid;
+    background-color:  hsla(0, 100%, 50%, 0.114);
+    padding: 2rem;
+    margin-left: 1.5rem;
+    margin-top: 14rem;
+    transition: 0.3s ease;
+}
+
+.Shop-Store .product-container  .Rose-container .Rose-description:hover{
+    background-color: white;
+}
+
+.Shop-Store .product-container  .Rose-container .Rose-description .Rose-Title-container{
+    text-align: center;
+    padding-bottom: 1rem;
+}
+.Shop-Store .product-container  .Rose-container .Rose-description .Rose-Title-container h1{
+    color: white;
+}
+.Shop-Store .product-container  .Rose-container .Rose-description:hover .Rose-Title-container h1{
+    color: black;
+}
+
+.Shop-Store .product-container  .Rose-container .Rose-description .price-container-rose{
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3 ease;
+}
+
+.Shop-Store .product-container  .Rose-container .Rose-description:hover .price-container-rose{
+    padding-bottom: 2rem;
+    opacity: 1;
+    color: black;
+}
+
+.Shop-Store .product-container  .Rose-container .Rose-description .btn-container-rose{
+    justify-self: center;
+    opacity: 0;
+}
+
+.Shop-Store .product-container  .Rose-container .Rose-description:hover .btn-container-rose{
+    opacity: 1;
+    color: #f4a7ba ;
+}
+
+
+
+
+/*Lisa Section2 Container*/
+
+.Shop-Store .product-container .Lisa-container .lisa-description{
+    position: absolute;
+    display: grid;
+    background-color:  hsla(0, 100%, 50%, 0.114);
+    padding: 2rem;
+    margin-left: 1rem;
+    margin-top: 25rem;
+    transition: 0.3s ease;
+}
+.Shop-Store .product-container .Lisa-container .lisa-description:hover{
+    background-color: white;
+}
+
+.Shop-Store .product-container .Lisa-container .lisa-description .title-container-lisa{
+    text-align: center;
+    padding-bottom: 1rem;
+}
+.Shop-Store .product-container .Lisa-container .lisa-description .title-container-lisa h1{
+    color: white;
+}
+
+.Shop-Store .product-container .Lisa-container .lisa-description:hover .title-container-lisa h1{
+    color: black;
+}
+
+.Shop-Store .product-container .Lisa-container .lisa-description .price-container-lisa{
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3 ease;
+}
+
+.Shop-Store .product-container .Lisa-container .lisa-description:hover .price-container-lisa{
+    padding-bottom: 2rem;
+    opacity: 1;
+    color: black;
+}
+.Shop-Store .product-container .Lisa-container .lisa-description .shop-btn-lisa{
+    justify-self: center;
+    opacity: 0;
+}
+
+.Shop-Store .product-container .Lisa-container .lisa-description:hover .shop-btn-lisa{
+    opacity: 1;
+    color: #f4a7ba ;
+}
+
+/*Tie Dye Styles container 2 */
+
+.Shop-Store .product-container .Tie-Dye-container .img-container-background:hover{
+    background-color:  hsla(240, 20%, 96%, 0.415);
+}
+
+.Shop-Store .product-container .Tour-Logo-container .img-container-background:hover{
+    background-color:  hsla(240, 20%, 96%, 0.415);
+}
+
+.Shop-Store .product-container .Pink-Hoodie-container .img-container-background:hover{
+    background-color:  hsla(240, 20%, 96%, 0.415);
+}
+
+.Shop-Store .product-container .ExBox-container img:hover{
+   border-width: 10px;
+   border-style: solid;
+   border-color: hsla(240, 20%, 96%, 0.415);
 }
