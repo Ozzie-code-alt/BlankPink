@@ -2,29 +2,82 @@
     padding: 0;
     margin: 0;
     /* outline: red 1px dotted; */
+    font-family: 'Priori Serif';
 }
 .main-container{
     height: 100vh;
 }
 .main-container  .nav{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    justify-content: center;
     width: 100%;
     background-color: black;
    padding-top: 10px;
    padding-bottom: 10px;
 }
 
-.main-container .nav ul{
+.main-container .nav .left{
     display: flex; 
+    align-items: center;
+    justify-content: center;
     list-style-type: none;
 }
 
-.main-container .nab ul li {
-text-align: center;
+.main-container .nav img{
+    justify-self: center;
+}
+.main-container .nav ul li {
+    text-align: center;
+    position: relative;
 }
 
+.main-container .nav .link:hover{
+    color: white;
+}
+/* Learn Event bEfore and After*/
 
 .main-container .nav ul li a{
-    color: white;
+    color: #f78da7;
     padding: 10px;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.main-container .nav .right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+}
+.icon:hover{
+    color: white;
+}
+.main-page{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(Images/Background.jpg);
+    background-size: cover;
+    height: 96vh;
+}
+
+.main-page .btn-container-out{
+position: absolute;
+bottom: 0;
+padding-bottom: 6rem;
+}
+.main-container .btn-container-out button{
+ padding: 10px;
+ font-size: larger;
+ padding-left: 60px;
+ padding-right: 60px;
+ border-radius: 40px;
+ background-color: #d93659;
+ border-style: none;
+ color:white;
+ font-weight: 400;
 }
 
