@@ -5,9 +5,12 @@
     font-family: 'Priori Serif';
 }
 .main-container{
-    height: 100vh;
+    height: 2000px;
+   position: relative;
 }
-.main-container  .nav{
+.main-container .nav{
+    top: 0;
+    position: sticky;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     align-items: center;
@@ -16,6 +19,7 @@
     background-color: black;
    padding-top: 10px;
    padding-bottom: 10px;
+   z-index: 1;
 }
 
 .main-container .nav .left{
@@ -28,13 +32,18 @@
 .main-container .nav img{
     justify-self: center;
 }
-.main-container .nav ul li {
+.main-container .nav .left .link {
     text-align: center;
     position: relative;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
 }
 
 .main-container .nav .link:hover{
     color: white;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    transition: 1s ease-in-out;
 }
 /* Learn Event bEfore and After*/
 
@@ -55,13 +64,14 @@
     color: white;
 }
 .main-page{
-    position: relative;
+    position: fixed;
     display: flex;
     align-items: center;
     justify-content: center;
     background-image: url(Images/Background.jpg);
     background-size: cover;
-    height: 96vh;
+    height: 100vh;
+    width: 100%;
 }
 
 .main-page .btn-container-out{
@@ -81,3 +91,19 @@ padding-bottom: 6rem;
  font-weight: 400;
 }
 
+
+
+/* Shop Store Styles*/
+.Shop-Store{
+   position: absolute;
+   height: 100%;
+   width: 100%;
+   margin-top: 100vh;
+   background-color: #f4a7ba; /*BlackPink Color*/
+}
+.Shop-Store .title-container{
+display: flex;
+align-items: center;
+padding-left: 30px;
+padding-top: 1rem;
+}
