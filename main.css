@@ -89,8 +89,11 @@ padding-bottom: 6rem;
  border-style: none;
  color:white;
  font-weight: 400;
+ transition: 1s ease-in-out;
 }
-
+.main-container .btn-container-out button:hover{
+   background-color: #f4a7ba;
+}
 
 
 /* Shop Store Styles*/
@@ -106,4 +109,76 @@ display: flex;
 align-items: center;
 padding-left: 30px;
 padding-top: 1rem;
+}
+
+.Shop-Store .product-container{
+    margin-top: 10rem;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);   
+    align-items: center;
+    justify-content: center;
+}
+
+.Shop-Store .product-container .jisoo-container{
+display: grid;
+align-items: center;
+justify-content: center;
+padding-left: 11rem;
+padding-bottom: 10rem;
+}
+.Shop-Store .product-container .jennie-container{
+display: grid;
+align-items: center;
+justify-content: center;
+padding-left: 1rem;
+}
+
+.Shop-Store .product-container .Rose-container{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    padding-right: 2rem;
+    padding-bottom: 10rem;
+}
+
+.Shop-Store .product-container .Lisa-container{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    padding-right: 11rem;
+}
+
+
+/*Product Styles*/
+
+
+.Shop-Store .product-container .ExBox-container{
+display: grid;
+align-items: center;
+justify-content: center;
+padding-left: 11rem;
+padding-bottom: 10rem;
+}
+
+
+.Shop-Store .product-container .Tie-Dye-container{
+display: grid;
+align-items: center;
+justify-content: center;
+padding-left: 1rem;
+}
+
+.Shop-Store .product-container .Tour-Logo-container{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    padding-right: 2rem;
+    padding-bottom: 10rem;
+}
+.Shop-Store .product-container .Pink-Hoodie-container{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    padding-right: 11rem;
 }
