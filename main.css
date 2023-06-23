@@ -247,7 +247,7 @@ border-color:white ;
 }
 
 
-
+/*Jisoo Section 2 Styles */
 .Shop-Store .product-container .jisoo-container .jisoo-description{
     position: absolute;
     display: grid;
@@ -258,36 +258,110 @@ border-color:white ;
     transition: 0.3s ease;
 
 }
-.Shop-Store .product-container .jisoo-container .jisoo-description:hover{
-    padding-bottom: 10rem;
-    
+.subElement{
+    transition: 0.3s ease-in-out;
 }
 
+.Shop-Store .product-container .jisoo-container .jisoo-description:hover{
+    background-color: white;
+}
 
+.Shop-Store .product-container .jisoo-container .jisoo-description:hover .price-container-jisoo{
+    padding-bottom: 2rem;
+    opacity: 1;
+    color: black;
+}
+.Shop-Store .product-container .jisoo-container .jisoo-description:hover .shop-btn-jisoo{
+
+    opacity: 1;
+    color: #f4a7ba ;
+}
+.Shop-Store .product-container .jisoo-container .jisoo-description:hover .title-container-jisoo h1{
+color: black;
+}
 
 
 .Shop-Store .product-container .jisoo-container .jisoo-description .title-container-jisoo{
     text-align: center;
    padding-bottom: 1rem;
+
 }
 .Shop-Store .product-container .jisoo-container .jisoo-description .title-container-jisoo h1{
     font-size: 20px;
     color: white;
 }
+
 .Shop-Store .product-container .jisoo-container .jisoo-description .price-container-jisoo{
     text-align: center;
     opacity: 0;
     transition: opacity 0.3 ease;
 }
-.Shop-Store .product-container .jisoo-container .jisoo-description .price-container-jisoo:hover{
+/* .Shop-Store .product-container .jisoo-container .jisoo-description .price-container-jisoo:hover{
     opacity: 1;
     color: white;
-}
+} */
 .Shop-Store .product-container .jisoo-container .jisoo-description .shop-btn-jisoo{
     justify-self: center;
    opacity: 0;
 }
-.Shop-Store .product-container .jisoo-container .jisoo-description .shop-btn-jisoo:hover{
-    opacity: 1;
+/* .Shop-Store .product-container .jisoo-container .jisoo-description .shop-btn-jisoo:hover{
+        opacity: 1;
+    color:  whitesmoke;
+} */
+
+
+
+/*Jennie Section 2 Styles*/
+
+.Shop-Store .product-container .jennie-container .jennie-description{
+    position: absolute;
+    display: grid;
+    background-color:  hsla(0, 100%, 50%, 0.114);
+    padding: 2rem;
+    margin-left: 3.5rem;
+    margin-top: 18rem;
+    transition: 0.3s ease;
+}
+.Shop-Store .product-container .jennie-container .jennie-description:hover{
+    background-color: white;
+}
+
+
+
+
+.Shop-Store .product-container .jennie-container .jennie-description .title-container-jennie{
+    text-align: center;
+   padding-bottom: 1rem;
+
+}
+
+.Shop-Store .product-container .jennie-container .jennie-description:hover .title-container-jennie h1{
+    color: black;
+}
+
+.Shop-Store .product-container .jennie-container .jennie-description .title-container-jennie h1{
+    font-size: 20px;
     color: white;
+}
+
+.Shop-Store .product-container .jennie-container .jennie-description .price-container-jennie{
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3 ease;
+}
+
+.Shop-Store .product-container .jennie-container .jennie-description:hover .price-container-jennie{
+    padding-bottom: 2rem;
+    opacity: 1;
+    color: black;
+}
+
+.Shop-Store .product-container .jennie-container .jennie-description .shop-btn-jennie{
+    justify-self: center;
+    opacity: 0;
+}
+
+.Shop-Store .product-container .jennie-container .jennie-description:hover .shop-btn-jennie{
+    opacity: 1;
+    color: #f4a7ba ;
 }
