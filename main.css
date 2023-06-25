@@ -490,11 +490,15 @@ color: black;
     grid-gap: 1rem;
     background-color: hsla(0, 100%, 50%, 0.114);
     margin-left: 12rem;
+    margin-top: 16rem;
+    transition: 0.3s ease-in-out;
+  
 }
 
 .Shop-Store .product-container .ExBox-container .Box-description .title-container-ExBox{
     text-align: center;
     color: white;
+    padding-top: 1rem;
 }
 
 .Shop-Store .product-container .ExBox-container .Box-description .price-container-ExBox{
@@ -506,5 +510,169 @@ color: black;
     text-align: center;
     opacity: 0;
 }
+.Shop-Store .product-container .ExBox-container .Box-description:hover{
+    background-color: white;
+   
+}
+
+.Shop-Store .product-container .ExBox-container .Box-description:hover .title-container-ExBox{
+    color: black;
+   
+}
+.Shop-Store .product-container .ExBox-container .Box-description:hover .price-container-ExBox{
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+}
+.Shop-Store .product-container .ExBox-container .Box-description:hover .shop-btn-exBox{
+    opacity: 1;
+    padding-bottom: 2rem;
+    color: #f4a7ba;
+}
+.transitionElement{
+    transition: 0.3s ease-in-out;
+}
 
 
+/*TyeDye STyles*/
+.Shop-Store .product-container .Tie-Dye-container .Tie-Dye-description{
+    position: absolute;
+    display: grid;
+    grid-gap: 1rem;
+    background-color: hsla(0, 100%, 50%, 0.114);
+    margin-left: 3.5rem;
+    margin-top: 16rem;
+    transition: 0.3s ease-in-out;
+}
+
+.Shop-Store .product-container .Tie-Dye-container .Tie-Dye-description:hover{
+    background-color: white;
+}
+
+.Shop-Store .product-container .Tie-Dye-container .Tie-Dye-description .title-container-TieDye{
+    text-align: center;
+    color: white;
+    padding-top: 1rem;
+}
+
+.Shop-Store .product-container .Tie-Dye-container .Tie-Dye-description:hover .title-container-TieDye{
+    color: black;
+}
+
+.Shop-Store .product-container .Tie-Dye-container .Tie-Dye-description .price-container-Tie-Dye{
+text-align: center;
+opacity: 0;
+}
+
+.Shop-Store .product-container .Tie-Dye-container .Tie-Dye-description:hover .price-container-Tie-Dye{
+opacity:1;
+}
+
+.Shop-Store .product-container .Tie-Dye-container .Tie-Dye-description .shop-btn-TieDye{
+text-align: center;
+opacity: 0;
+}
+.Shop-Store .product-container .Tie-Dye-container .Tie-Dye-description:hover .shop-btn-TieDye{
+    padding-bottom: 1rem;
+    opacity: 1;
+    color: #f4a7ba;
+}
+
+/*Tour Logo Description STYLES*/
+.Shop-Store .product-container .Tour-Logo-description{
+    position: absolute;
+    display: grid;
+    grid-gap: 1rem;
+    background-color: hsla(0, 100%, 50%, 0.114);
+    margin-left: 2rem;
+    margin-top: 16rem;
+    transition: 0.3s ease-in-out;
+}
+
+.Shop-Store .product-container .Tour-Logo-description:hover{
+    background-color: white;
+}
+
+.Shop-Store .product-container .Tour-Logo-description .title-container-TourLogo{
+    text-align: center;
+    color: white;
+    padding-top: 1rem;
+}
+.Shop-Store .product-container .Tour-Logo-description:hover .title-container-TourLogo{
+    color: black;
+}
+
+.Shop-Store .product-container .Tour-Logo-description .price-container-TourLogo{
+text-align: center;
+opacity: 0;
+}
+
+.Shop-Store .product-container .Tour-Logo-description:hover .price-container-TourLogo{
+    opacity: 1;
+}
+
+.Shop-Store .product-container .Tour-Logo-description .shop-btn-TourLogo{
+text-align: center;
+opacity: 0;
+}
+.Shop-Store .product-container .Tour-Logo-description:hover .shop-btn-TourLogo{
+    opacity: 1;
+    color: #f4a7ba;
+    padding-bottom: 1rem;
+}
+
+/*Pink Venom Description STYLES*/
+.Shop-Store .product-container .Pink-Venom-Hoodie-description{
+    position: absolute;
+    display: grid;
+    grid-gap: 1rem;
+    background-color: hsla(0, 100%, 50%, 0.114);
+    margin-left: 3.5rem;
+    margin-top: 16rem;
+    transition: 0.3s ease-in-out;
+    padding: 12px;
+}
+
+.Shop-Store .product-container .Pink-Venom-Hoodie-description:hover{
+    background-color: white;
+}
+
+.Shop-Store .product-container .title-container-Hoodie{
+    text-align: center;
+    color: white;
+    padding-top: 1rem;
+}
+.Shop-Store .product-container .Pink-Venom-Hoodie-description:hover .title-container-Hoodie{
+    color: black;
+}
+
+.Shop-Store .product-container .price-container-Hoodie{
+text-align: center;
+opacity: 0;
+}
+
+.Shop-Store .product-container .Pink-Venom-Hoodie-description:hover .price-container-Hoodie{
+opacity: 1;
+}
+
+.Shop-Store .product-container .shop-btn-Hoodie{
+text-align: center;
+opacity: 0;
+}
+
+.Shop-Store .product-container .Pink-Venom-Hoodie-description:hover .shop-btn-Hoodie{
+    padding-bottom: 1rem;
+    opacity: 1;
+    color: #f4a7ba;
+}
+
+
+/*ListenNowSection*/
+
+.Listen-Now{
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    margin-top:260vh;
+    background-color: black; /*BlackPink Color*/
+   display: grid;
+}
