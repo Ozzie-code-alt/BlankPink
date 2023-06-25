@@ -482,3 +482,29 @@ color: black;
    border-style: solid;
    border-color: hsla(240, 20%, 96%, 0.415);
 }
+
+/*EXBOX DESCRIPTIONS STYLES*/
+.Shop-Store .product-container .ExBox-container .Box-description{
+    position: absolute;
+    display: grid;
+    grid-gap: 1rem;
+    background-color: hsla(0, 100%, 50%, 0.114);
+    margin-left: 12rem;
+}
+
+.Shop-Store .product-container .ExBox-container .Box-description .title-container-ExBox{
+    text-align: center;
+    color: white;
+}
+
+.Shop-Store .product-container .ExBox-container .Box-description .price-container-ExBox{
+    text-align: center;
+    opacity: 0;
+}
+
+.Shop-Store .product-container .ExBox-container .Box-description .shop-btn-exBox{
+    text-align: center;
+    opacity: 0;
+}
+
+
