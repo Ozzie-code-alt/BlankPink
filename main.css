@@ -670,9 +670,47 @@ opacity: 0;
 
 .Listen-Now{
     position: absolute;
-    height: 100vh;
+    height: 110vh;
     width: 100%;
     margin-top:260vh;
     background-color: black; /*BlackPink Color*/
    display: grid;
+   grid-template-rows: 1fr 30%;
+ 
+}
+.Listen-Now .album-container{
+    display: grid;
+   justify-self: center;
+   align-items: center;
+   margin-top: 2rem;
+}
+
+.Listen-Now .album-container .pic-container{
+width: 500px;
+height: 0;
+position: relative;
+padding-bottom: 70%;
+}
+.Listen-Now .album-container .pic-container img{
+position: absolute;
+object-fit: cover;
+    top: 0;
+  left: 0;
+  width: 100%; 
+  height: 100%; /
+}
+
+.Listen-Now .album-container .hover-description-container{
+    display: grid;
+    width: 100%;
+    grid-gap: 1rem;
+    color: white;
+}
+
+.Listen-Now .album-container .hover-description-container .latest-release{
+    text-align: center;
+}
+
+.Listen-Now .album-container .hover-description-container .born-pink{
+    text-align: center;
 }
